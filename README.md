@@ -23,9 +23,8 @@ Installation
 Clone the Repository:
 
 git clone https://github.com/obtranzat/TaskAutomation.git
-cd task-automation-app
+cd TaskAutomation
 Run the Application:
-
 python app.py
 This will start the GUI, allowing you to record, stop, and replay actions.
 
