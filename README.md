@@ -22,23 +22,16 @@ pip install keyboard
 Installation
 Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/obtranzat/TaskAutomation.git
 cd task-automation-app
 Run the Application:
 
-bash
-Copy code
 python app.py
 This will start the GUI, allowing you to record, stop, and replay actions.
 
 Build the Executable (Optional):
-
 If you want to create a standalone Windows .exe, you can use pyinstaller:
 
-bash
-Copy code
 pyinstaller --onefile --noconsole app.py
 pyinstaller --onefile --noconsole record.py
 pyinstaller --onefile --noconsole replay.py
@@ -51,6 +44,7 @@ Perform the actions you want to record (mouse clicks, movements, and keyboard in
 Click "Stop Recording" to end the session. The recorded actions will be saved automatically.
 Replaying Actions
 Click "Replay Actions" in the GUI to replay the previously recorded actions.
+
 How It Works
 Recording: The app uses the mouse and keyboard Python libraries to track user input and saves the actions with timestamps.
 Replay: The recorded actions are read from a file and replayed with the same timing using time.sleep() to simulate delays between actions.
