@@ -51,8 +51,8 @@ root.geometry("300x250")
 
 # Create buttons
 replay_button = tk.Button(root, text="Avoin tehtävä", command=replay, width=20, height=2, fg="blue", bg="white")
-stop_button = tk.Button(root, text="Stop Recording", command=stop_recording, width=20, height=2, fg="red", bg="white")
-record_button = tk.Button(root, text="Start Recording", command=record, width=20, height=2, fg="green", bg="white")
+stop_button = tk.Button(root, text="", command=stop_recording, width=20, height=2, fg="red", bg="white")
+record_button = tk.Button(root, text="", command=record, width=20, height=2, fg="green", bg="white")
 
 
 
@@ -64,7 +64,7 @@ record_button.pack(pady=10)
 
 
 # Add a footer with the company name
-footer_label = tk.Label(root, text="© https://kajaaninvaltakunnansali.web.app", bd=1, relief=tk.SUNKEN, anchor=tk.W, font=('Helvetica', 10, 'italic'), fg="gray")
+footer_label = tk.Label(root, text="© https://obtranzat.42web.io", bd=1, relief=tk.SUNKEN, anchor=tk.W, font=('Helvetica', 10, 'italic'), fg="black")
 
 footer_label.pack(side="bottom", fill="x")
 
