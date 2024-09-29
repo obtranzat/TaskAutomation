@@ -22,7 +22,7 @@ pip install keyboard
 Installation
 Clone the Repository:
 
-git clone https://github.com/obtranzat/TaskAutomation.git
+git clone https://github.com/obtranzat/Task_Automation.git
 cd TaskAutomation
 Run the Application:
 python app.py
@@ -61,4 +61,4 @@ Contact
 For any questions or suggestions, feel free to contact me:
 
 Email: obtrazat@gmail.com
-GitHub: obtranzat
+GitHub: https://githhub.com/obtranzat
